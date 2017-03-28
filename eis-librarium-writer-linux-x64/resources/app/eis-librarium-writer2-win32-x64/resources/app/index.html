@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>EIS Librarium Writer</title>
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./node_modules/material-design-lite/material.min.css">
+  <script src="./node_modules/material-design-lite/material.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="page-header text-right padding-right l-shape">
+      <h4 class="page-header-eis" >Librarium Writer</h4>
+    </div>
+    <div id="Layout" class="row">
+    </div>
+  </div>
+</body>
+<script>
+  require("./index.js");
+  window.$ = window.jQuery = require("./node_modules/jquery/dist/jquery.min.js");
+  require("./node_modules/bootstrap/dist/js/bootstrap.min.js");
+  require("./bundle.js");
+</script>
+</html>

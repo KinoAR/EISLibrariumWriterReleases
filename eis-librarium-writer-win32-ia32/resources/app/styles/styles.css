@@ -1,0 +1,142 @@
+/* General Styles */
+body {
+  background-color: rgba(0, 0, 0, 0.88);
+  color: white;
+}
+.border-right {
+  border-right: 1px solid #686897;
+}
+.border-bottom {
+  border-bottom: 1px solid #686897;
+}
+.grouping-wide {
+  width: 100%;
+}
+button.btn-reg {
+  border-radius: 0px !important;
+  background-color: rgba(0, 0, 0, 0.88);
+  border: 0px !important;
+}
+div.page-header {
+  border: 1px solid rgba(0, 0, 0, 0.88);
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-right: -15px;
+  margin-left: -15px;
+  box-shadow: 7px 7px 2px black;
+  border-left: 1px solid black;
+}
+h4.page-header-eis {
+  margin-bottom: 0px;
+}
+div.padding-right {
+  padding-right: 15px;
+}
+/*  Layout  */
+div#Layout {
+  border: 1px solid rgba(0, 0, 0, 0.88);
+  min-height: 400px;
+  background-color: white;
+  box-shadow: 7px 7px 2px black;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+/* Title Bar*/
+div.title-bar-buttons {
+  padding-left: 0px;
+  list-style-type: none;
+  margin-bottom: 0px;
+  margin-top: 23px;
+}
+/* Context List */
+div#ContextList {
+  min-height: 400px;
+}
+div.l-shape {
+  background-color: rgba(0, 0, 0, 0.88);
+}
+div.r-shape {
+  background-color: #333333;
+  padding-left: 20px;
+}
+div.contents {
+  color: black;
+}
+/* Page Form */
+div#PageForm {
+  min-height: 500px;
+  color: white;
+  background-color: #24292E;
+}
+button.page-form {
+  border-radius: 0px !important;
+}
+#pageTextInfo {
+  border-radius: 0px;
+  background-color: black;
+  color: goldenrod;
+  font-size: 16pt;
+}
+/* Book Search */
+.book-search {
+  margin-bottom: 15px;
+}
+input.book-search {
+  width: 100%;
+}
+/* Book List */
+div#BookList {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.88);
+  min-height: 500px;
+  border-right: 1px solid darkgray;
+}
+ul.book-list {
+  padding-left: 0px;
+  list-style-type: none;
+}
+button.book-list {
+  width: 75% !important;
+  border-radius: 0px !important;
+  background-color: rgba(0, 0, 0, 0.88);
+  border: 0px !important;
+  text-align: left !important;
+}
+button.book-create {
+  width: 88% !important;
+  border-radius: 0px !important;
+  background-color: rgba(0, 0, 0, 0.88);
+  border: 0px !important;
+}
+/* Create Book Form */
+div#CreateBookForm {
+  color: black;
+  border: 1px solid #686897;
+  position: absolute;
+  width: 250px;
+  height: 210px;
+  left: 50%;
+  top: 50%;
+  margin-top: -105px;
+  margin-left: -125px;
+  background-color: white;
+  display: none;
+}
+button.pageform-button {
+  background-color: #131313 !important;
+  border-color: rgba(93, 68, 8, 0.83) !important;
+}
+div#ChangeTitlePrompt {
+  color: white;
+  background-color: #1e1e1e;
+  border-color: 1px solid rgba(93, 68, 8, 0.83) !important;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 350px;
+  height: 220px;
+  margin-left: -175px;
+  margin-top: -110px;
+  display: none;
+}

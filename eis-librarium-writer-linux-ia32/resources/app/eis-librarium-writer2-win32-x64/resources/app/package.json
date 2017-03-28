@@ -1,0 +1,61 @@
+{
+  "name": "eis-librarium-writer2",
+  "version": "1.0.0",
+  "description": "Tool for editing librarium json files",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KinoAR/EISLibrariumWriter2.git"
+  },
+  "keywords": [
+    "librarium",
+    "writer",
+    "eis",
+    "endless",
+    "illusion"
+  ],
+  "author": "Kino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KinoAR/EISLibrariumWriter2/issues"
+  },
+  "homepage": "https://github.com/KinoAR/EISLibrariumWriter2#readme",
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-react-html-attrs": "^2.0.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "bootstrap": "^3.3.7",
+    "electron-connect": "^0.6.1",
+    "electron-rebuild": "^1.4.0",
+    "gulp": "^3.9.1",
+    "jquery": "^3.1.1",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "electron": "^1.6.2",
+    "material-design-lite": "^1.3.0",
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-react-html-attrs": "^2.0.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "bootstrap": "^3.3.7",
+    "electron-rebuild": "^1.4.0",
+    "gulp": "^3.9.1",
+    "jquery": "^3.1.1",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "webpack": "^1.13.2"
+  }
+}

@@ -1,0 +1,45 @@
+[
+	{
+		"title": "A Testing Guide",
+		"pages": [
+			{
+				"pageNumber": 1,
+				"pageText": "This is the first page.\\TX[Dic-Anime]"
+			},
+			{
+				"pageNumber": 2,
+				"pageText": "This is page 2 of the book."
+			}
+		]
+	},
+	{
+		"title": "Lilia",
+		"pages": [
+			{
+				"pageNumber": 1,
+				"pageText": "Lilia was a made from the town of Chrystal."
+			},
+			{
+				"pageNumber": 2,
+				"pageText": "This is page 2 of the book. This is a very long string of text however, so hello there!"
+			},
+			{
+				"pageNumber": 3,
+				"pageText": "Chrystal is a village of extreme wonder, \\I[33] and it was treated as such by many. One had to be careful how they treated the villages there; it was certaintly not easy to get along."
+			}
+		]
+	},
+	{
+		"title": "Empty Book",
+		"pages": [
+			{
+				"pageNumber": 1,
+				"pageText": "This is the first page."
+			},
+			{
+				"pageNumber": 2,
+				"pageText": "This is page 2 of the book"
+			}
+		]
+	}
+]
